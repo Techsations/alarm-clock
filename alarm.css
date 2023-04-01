@@ -1,0 +1,41 @@
+.container{
+    border: 3px solid black;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 600px;
+    background-color: rosybrown;
+    border-radius: 16px;
+}
+.big-con{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    color: black;
+}
+.alarm-div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+#set-Alarm{
+    text-align: center;
+}
+.alarm-btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+#alarmHour,
+#alarmMinutes{
+   margin-left: 6px;
+}
+.mn{
+    margin-left: 6px;
+}
