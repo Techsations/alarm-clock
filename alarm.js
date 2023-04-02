@@ -24,3 +24,10 @@ function time() {
     }
     }
     setInterval(time, 1000)
+
+    function setAlarm() {
+        setHour.value = setHour.value;
+        setMinutes.value = setMinutes.value;
+        display.innerHTML = ("Alarm is set for " + setHour.value + ":" + setMinutes.value);
+        // console.log(display.innerHTML);
+    }
