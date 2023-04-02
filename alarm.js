@@ -31,3 +31,16 @@ function time() {
         display.innerHTML = ("Alarm is set for " + setHour.value + ":" + setMinutes.value);
         // console.log(display.innerHTML);
     }
+
+    function period() {
+        if (hour.innerHTML === setHour.value && minutes.innerHTML === setMinutes.value) {
+           display.innerHTML = "Alarm is Ringing!!...";
+           audio.play();
+           setTimeout(()=> {
+                display.innerHTML = ("Alarm Off!");
+                audio.pause();
+           }, 60000)
+        }      
+    }
+
+    setInterval(period, 1000);
