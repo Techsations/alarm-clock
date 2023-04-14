@@ -1,41 +1,58 @@
-.container{
-    border: 3px solid black;
-    width: fit-content;
-    padding: 20px;
-    margin-top: 20px;
-    /* margin-left: 600px; */
-    background-color: rosybrown;
-    border-radius: 16px;
-}
-.big-con{
+.container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    font-family: cursive;
-    color: black;
+    height: 100vh;
 }
-.alarm-div{
+
+.big-con {
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    align-items: center;
 }
-#set-Alarm{
+
+.big-con h2 {
+    font-size: 10rem;
+    font-weight: bold;
+    margin: 0 0.5rem;
+}
+
+.alarm-div {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.alarm-div div {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.alarm-div select {
+    font-size: 1.5rem;
+}
+
+#set-Alarm {
+    margin-top: 2rem;
+    font-size: 2rem;
     text-align: center;
 }
-.alarm-btn{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    margin-left: 40px;
-    width: 120px;
-    border-radius: 10px;
-    border: none;
-    background-color: green;
+
+.alarm-btn {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #2196f3;
     color: white;
-    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-#alarmHour,
-#alarmMinutes{
-   margin-left: 6px;
+
+.alarm-btn:hover {
+    background-color: #0c7cd5;
 }
-.mn{
-    margin-left: 6px;
+
+audio {
+    display: none;
 }
+  
